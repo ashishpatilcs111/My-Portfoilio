@@ -275,7 +275,7 @@ background: linear-gradient(90deg, rgba(5,0,66,1) 0%, rgba(0,0,0,1) 100%);
 .contact input{
     height: 3rem;
     color: white;
-    width: 30rem;
+    width: 25rem;
     background-color: transparent;
     border-radius: 5px;
     margin: .8rem;
@@ -284,7 +284,7 @@ background: linear-gradient(90deg, rgba(5,0,66,1) 0%, rgba(0,0,0,1) 100%);
 .contact textarea{
     height: 15rem;
     color: white;
-    width: 30rem;
+    width: 25rem;
     background-color: transparent;
     border-radius: 5px;
     margin: .8rem;
@@ -317,3 +317,27 @@ background: linear-gradient(90deg, rgba(5,0,66,1) 0%, rgba(0,0,0,1) 100%);
 .a1{
     cursor: pointer;
 }
+
+
+@media only screen and (max-width: 600px) {
+ 
+    .contact textarea{
+        width: 20rem;
+    } 
+    .contact input{
+        width: 20rem;
+    }
+    .introduction{
+        line-height: 4rem;
+        display: block;
+    }
+    .heading{
+        font-size: 3.5rem;
+    }
+    .sub-heading{
+        font-size: 2.5rem;
+    }
+    .nav-items{
+        display: none;
+    }    
+    }
